@@ -1,0 +1,117 @@
+#VRML V2.0 utf8
+WorldInfo {
+ title "SSMMHHANDFORWALLCLOCK"
+ info ["This Web3D Content was created with Vivaty Studio, a Web3D authoring tool"
+ "www.mediamachines.com"]
+}
+## Vizthumbnail  Thumb_SSMMHHANDFORWALLCLOCK_wrl8946531587317241.jpg
+DEF dad_MINUTEHAND Transform {
+ translation 0 -.02484 -.9523
+ rotation 1 0 0 1.571
+ children [
+  DEF MINUTEHAND Shape {
+   appearance Appearance {
+    material DEF Red Material {
+     ambientIntensity 0.200
+     shininess 0.200
+     diffuseColor 1 0 0
+    }
+   }
+   geometry DEF GeoSweptSurface1 Extrusion {
+    creaseAngle 0.524
+    crossSection [
+     -.06229 -.00366
+     .08427 -.00366
+     .04763 -2.34126
+     -.06229 -.00366
+    ]
+    spine [
+     0 .95 0
+     0 1 0
+    ]
+    orientation [
+     0 0 1 0
+     0 0 1 0
+    ]
+    scale [
+     1 1
+     1 1
+    ]
+   }
+  }
+ ]
+}
+DEF dad_SECONDHAND Transform {
+ translation 0 0 -.82518
+ rotation 1 0 0 1.571
+ scale .5 1 1.2
+ children [
+  DEF SECONDHAND Shape {
+   appearance Appearance {
+    material DEF Yellow Material {
+     ambientIntensity 0.200
+     shininess 0.200
+     diffuseColor 1 1 0
+    }
+   }
+   geometry DEF GeoSweptSurface2 Extrusion {
+    creaseAngle 0.524
+    crossSection [
+     -.06229 -.00366
+     .08427 -.00366
+     .04763 -2.34126
+     -.06229 -.00366
+    ]
+    spine [
+     0 .95 0
+     0 1 0
+    ]
+    orientation [
+     0 0 1 0
+     0 0 1 0
+    ]
+    scale [
+     1 1
+     1 1
+    ]
+   }
+  }
+ ]
+}
+DEF dad_HOURHAND Transform {
+ translation 0 -.02484 -1.07208
+ rotation 1 0 0 1.571
+ scale 1.5 1 .9
+ children [
+  DEF HOURHAND Shape {
+   appearance Appearance {
+    material DEF White Material {
+     ambientIntensity 0.200
+     shininess 0.200
+     diffuseColor 1 1 1
+    }
+   }
+   geometry DEF GeoSweptSurface3 Extrusion {
+    creaseAngle 0.524
+    crossSection [
+     -.06229 -.00366
+     .08427 -.00366
+     .04763 -2.34126
+     -.06229 -.00366
+    ]
+    spine [
+     0 .95 0
+     0 1 0
+    ]
+    orientation [
+     0 0 1 0
+     0 0 1 0
+    ]
+    scale [
+     1 1
+     1 1
+    ]
+   }
+  }
+ ]
+}
